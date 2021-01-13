@@ -75,7 +75,7 @@ void User_Account()
 			{ 
 			  amount = amount-withdraw;
 			  printf("\tPLEASE COLLECT CASH\n");
-			  printf("You have %lu$ left in your account\n\n",amount);
+			  printf("\tYou have %lu$ left in your account\n\n",amount);
 			}
 			break;
 		
@@ -91,7 +91,7 @@ void User_Account()
 		 break;
 
 		 default :
-		  printf("\tInvalid choice!");
+		  printf("\tInvalid choice!\n");
 	}
 	printf("Do you have an other transaction?(1 = yes/0 = NO): ");
 	fflush(stdin);
