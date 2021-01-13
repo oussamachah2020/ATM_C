@@ -32,8 +32,7 @@ void User_Account()
 		scanf("%d",&pin);
 	}
 
-
-    printf("\tEnter your pin: ");
+	printf("\tEnter your pin again: ");
 	scanf("%d",&pin);
 
  	if(pin == 1234)//the right pin
@@ -97,6 +96,7 @@ void User_Account()
 	printf("Do you have an other transaction?(1 = yes/0 = NO): ");
 	fflush(stdin);
 	scanf("%d",&transaction);
+	system("clear");
 	}while(transaction != 0);//this input (0) ends the program
 	  printf("\tThanks for using our ATM service!\n\n");
 }
