@@ -40,11 +40,11 @@ void User_Account()
 	
 	system("clear");//to clear the output
 
-	do //do-while loop to repeat the program
-	{ 
 	printf("\tWelcome to your account sir!\n");
 	printf("\tHow can i help you?\n\n");
 
+	do //do-while loop to repeat the program
+	{ 
 	printf("\t**************************************\n\n");
 	printf("\t1.check your Balance\n");
 	printf("\t2.withdraw an amount\n");
