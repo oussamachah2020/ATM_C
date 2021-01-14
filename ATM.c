@@ -56,6 +56,8 @@ void User_Account()
 	 switch(choice)
 	{
 		case 1: 
+		printf("\tthe operation active wait a moment please!\n");
+		sleep(3);
 		printf("\tYou have %lu$ in your account\n\n",amount);
 		break;
 
@@ -74,6 +76,8 @@ void User_Account()
 		}else
 			{ 
 			  amount = amount-withdraw;
+			  printf("\tthe operation active wait a moment please!\n");
+			  sleep(3);
 			  printf("\tPLEASE COLLECT CASH\n");
 			  printf("\tYou have %lu$ left in your account\n\n",amount);
 			}
@@ -83,6 +87,8 @@ void User_Account()
 		 printf("\tEnter an amount to add: ");
 		 scanf("%lu",&deposit);
 		 amount = amount + deposit;
+		 printf("\tthe operation active wait a moment please!\n");
+		 sleep(3);
 		 printf("\tNow you have %lu$ in you account\n\n",amount);
 		 break;
 
